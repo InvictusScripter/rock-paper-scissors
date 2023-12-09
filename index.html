@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
     <script src="script.js" defer></script>
+    <style>
+        /* Add any CSS styles for your buttons or result display here */
+    </style>
 </head>
 <body>
     <h1>Rock Paper Scissors Game</h1>
-    <p>Open the browser console to see the game results.</p>
-
-    <!-- You can add more HTML elements for user interface if needed -->
-
-    <script>
-        // You can add inline JavaScript code here if necessary
-    </script>
+    <div>
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div id="results">
+        <p>Game results will be displayed here.</p>
+    </div>
+    <div id="score">
+        <p>Player Score: <span id="playerScore">0</span></p>
+        <p>Computer Score: <span id="computerScore">0</span></p>
+    </div>
 </body>
 </html>
